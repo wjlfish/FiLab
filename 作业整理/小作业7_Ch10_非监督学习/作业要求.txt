@@ -1,0 +1,12 @@
+小作业7 - 第10章 非监督学习
+============================
+
+作业内容：
+
+载入 sklearn 中 iris 数据：
+  from sklearn import datasets
+  iris = datasets.load_iris()
+
+分别调用 sklearn 中的函数实现：
+1. K-Means 聚类
+2. PCA 降维

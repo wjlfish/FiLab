@@ -1,0 +1,11 @@
+小作业6 - 第9章 回归（房价预测）
+=================================
+
+作业内容：
+
+房价预测，要求 test 数据中的 MSE 越小越好。
+
+附带数据文件（house pricing 文件夹）：
+- train_new.csv（训练集）
+- test_new.csv（测试集）
+- data_description.txt（数据说明）

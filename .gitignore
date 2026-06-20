@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+.DS_Store
+*.pptx
+*.docx
+*.pdf
+*.pq
+CLAUDE.md
+financial-performance-prediction/
+ch8_classification/
+ch9_regression/
+ch10_unsupervise/
+student_demo_convertible_bond.py
+cb_data.pq

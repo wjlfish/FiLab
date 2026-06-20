@@ -1,0 +1,21 @@
+小作业5 - 第8章 分类 (Titanic)
+================================
+
+作业内容：
+
+1. 通过 pandas 分别读取 titanic 的训练数据和测试数据
+2. 编写预处理函数
+3. 在 sklearn 中尝试不同的机器学习分类模型
+4. 在训练数据中正确分类乘客是否存活，要求准确率 80% 以上。
+5. 在测试数据中正确分类乘客是否存活，要求准确率 65% 以上，越高越好。
+
+流程：
+  Load train_data, test_data
+  → Preprocess(train_data)
+  → Model(preprocessed_data)
+  → Preprocess(test_data)
+  → Predict and check result
+
+附带数据文件：
+- Titanic-train.csv（训练集）
+- Titanic-test.csv（测试集）

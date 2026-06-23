@@ -1,0 +1,46 @@
+大作业1 - Financial Performance Prediction（金融绩效预测）
+===========================================================
+
+任务描述：
+预测上市公司最近一个季度（Q0）的9个财务指标。
+
+数据集说明：
+- 包含2030家上市公司的财务数据（来自SEC EDGAR数据库）
+- 涵盖11个连续季度（Q0为最新季度，Q10为最早季度）
+- Q0: 2023年Q3（最新）, Q10: 2021年Q1（最早）
+- 每个季度（Q0除外）包含17个指标
+
+预测目标（9个）：
+- Q0_TOTAL_ASSETS
+- Q0_TOTAL_LIABILITIES
+- Q0_TOTAL_STOCKHOLDERS_EQUITY
+- Q0_GROSS_PROFIT
+- Q0_COST_OF_REVENUES
+- Q0_REVENUES
+- Q0_OPERATING_INCOME
+- Q0_OPERATING_EXPENSES
+- Q0_EBITDA
+
+评价指标：
+R2 score（决定系数），分别计算9个预测目标的R2然后取平均。
+
+数据文件：
+- train.csv（训练集）
+- test.csv（测试集）
+- sample_submission.csv（提交格式样例）
+- data_dictionary.txt（数据字典）
+
+提交要求：
+1. Jupyter Notebook
+2. 分析报告
+3. submission.csv
+
+具体内容要求：
+- Jupyter Notebook 图表结果应与分析报告一致
+- 具体内容包括：数据探索、分析过程、机器学习训练过程与结果（包括交叉验证等）
+
+提交格式：
+Id,Q0_TOTAL_ASSETS,Q0_TOTAL_LIABILITIES,Q0_TOTAL_STOCKHOLDERS_EQUITY,Q0_GROSS_PROFIT,Q0_COST_OF_REVENUES,Q0_REVENUES,Q0_OPERATING_INCOME,Q0_OPERATING_EXPENSES,Q0_EBITDA
+2,0,0,0,0,0,0,0,0,0
+5,0,0,0,0,0,0,0,0,0
+...

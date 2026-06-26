@@ -32,36 +32,48 @@ echo ^>^>^> 运行: 小作业1 Python基础
 echo ----------------------------------------
 python Works\Work1\hw1.py
 echo.
+echo 按回车继续下一个作业...
+pause >nul
 
 echo ----------------------------------------
 echo ^>^>^> 运行: 小作业2 NumPy
 echo ----------------------------------------
 python Works\Work2\hw2.py
 echo.
+echo 按回车继续下一个作业...
+pause >nul
 
 echo ----------------------------------------
 echo ^>^>^> 运行: 小作业3 Pandas
 echo ----------------------------------------
 python Works\Work3\hw3.py
 echo.
+echo 按回车继续下一个作业...
+pause >nul
 
 echo ----------------------------------------
 echo ^>^>^> 运行: 小作业4 金融时间序列
 echo ----------------------------------------
 python Works\Work4\hw4.py
 echo.
+echo 按回车继续下一个作业...
+pause >nul
 
 echo ----------------------------------------
 echo ^>^>^> 运行: 小作业5 Titanic分类
 echo ----------------------------------------
 python Works\Work5\hw5.py
 echo.
+echo 按回车继续下一个作业...
+pause >nul
 
 echo ----------------------------------------
 echo ^>^>^> 运行: 小作业6 房价预测
 echo ----------------------------------------
 python Works\Work6\hw6.py
 echo.
+echo 按回车继续下一个作业...
+pause >nul
 
 echo ----------------------------------------
 echo ^>^>^> 运行: 小作业7 非监督学习
@@ -71,13 +83,17 @@ echo.
 
 echo ========================================
 echo 全部小作业运行完毕！
+echo ========================================
 echo.
 echo ^>^>^> 导出大作业 Notebook 为 HTML...
 jupyter nbconvert --to html Works\FinalWork1\analysis.ipynb --output analysis.html
 jupyter nbconvert --to html Works\FinalWork2\research.ipynb --output research.html
 echo.
-echo 大作业已导出为 HTML，可直接浏览器打开:
-echo   - Works\FinalWork1\analysis.html
-echo   - Works\FinalWork2\research.html
-echo ========================================
+echo 大作业已导出完成，是否在浏览器中打开查看？
+echo 按回车打开，或直接关闭窗口跳过。
+pause >nul
+start "" "Works\FinalWork1\analysis.html"
+start "" "Works\FinalWork2\research.html"
+echo.
+echo 已在浏览器中打开大作业报告。
 pause

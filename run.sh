@@ -36,6 +36,8 @@ run_hw() {
     echo "----------------------------------------"
     python "$file"
     echo ""
+    read -p "按回车继续下一个作业..."
+    echo ""
 }
 
 run_hw "小作业1 Python基础" "Works/Work1/hw1.py"
@@ -44,16 +46,23 @@ run_hw "小作业3 Pandas" "Works/Work3/hw3.py"
 run_hw "小作业4 金融时间序列" "Works/Work4/hw4.py"
 run_hw "小作业5 Titanic分类" "Works/Work5/hw5.py"
 run_hw "小作业6 房价预测" "Works/Work6/hw6.py"
-run_hw "小作业7 非监督学习" "Works/Work7/hw7.py"
+
+echo "----------------------------------------"
+echo ">>> 运行: 小作业7 非监督学习"
+echo "----------------------------------------"
+python "Works/Work7/hw7.py"
+echo ""
 
 echo "========================================"
 echo "全部小作业运行完毕！"
+echo "========================================"
 echo ""
 echo ">>> 导出大作业 Notebook 为 HTML..."
 jupyter nbconvert --to html Works/FinalWork1/analysis.ipynb --output analysis.html
 jupyter nbconvert --to html Works/FinalWork2/research.ipynb --output research.html
 echo ""
-echo "大作业已导出为 HTML，可直接浏览器打开:"
-echo "  - Works/FinalWork1/analysis.html"
-echo "  - Works/FinalWork2/research.html"
-echo "========================================"
+echo "大作业已导出完成。"
+read -p "按回车在浏览器中打开大作业报告（或 Ctrl+C 跳过）..."
+open "Works/FinalWork1/analysis.html"
+open "Works/FinalWork2/research.html"
+echo "已在浏览器中打开大作业报告。"

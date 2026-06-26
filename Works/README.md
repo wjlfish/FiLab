@@ -50,4 +50,3 @@ Works/
 - Ch1 (Introduction): 课后只要求安装Anaconda并走通流程，无正式作业
 - Ch5 (Plot 数据可视化): PPT中未发现独立作业题目（可视化技能融入Ch6作业中使用）
 - Ch7 (Machine Learning): 为概述章节，无独立作业（具体作业在Ch8/9/10中）
-- **数据说明**: FinalWork2 的原始数据 `cb_data.pq` (182MB) 因体积过大未上传至仓库。Notebook 和 HTML 已包含全部运行输出，可直接查看结果，无需重新执行。

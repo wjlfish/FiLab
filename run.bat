@@ -86,8 +86,6 @@ echo 全部小作业运行完毕！
 echo ========================================
 echo.
 echo ^>^>^> 导出大作业 Notebook 为 HTML...
-echo   注意: 大作业2的原始数据 cb_data.pq (182MB) 未包含在仓库中。
-echo   HTML 已包含全部运行结果，无需重新执行 Notebook。
 jupyter nbconvert --to html Works\FinalWork1\analysis.ipynb --output analysis.html
 jupyter nbconvert --to html Works\FinalWork2\research.ipynb --output research.html
 echo.

@@ -3,6 +3,7 @@
 # 用法: chmod +x run.sh && ./run.sh
 
 set -e
+cd "$(dirname "$0")"
 
 echo ""
 echo "========================================"

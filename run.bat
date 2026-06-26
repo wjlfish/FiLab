@@ -2,6 +2,7 @@
 chcp 65001 >nul
 REM 一键运行所有作业 (Windows)
 REM 用法: 双击运行 或 cmd中执行 run.bat
+cd /d "%~dp0"
 
 echo.
 echo ========================================

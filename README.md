@@ -34,14 +34,14 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ## 目录结构
 
 ```
-作业整理/
-├── 小作业1_Ch2_数据类型与结构/
-├── 小作业2_Ch3_NumPy/
-├── 小作业3_Ch4_Pandas/
-├── 小作业4_Ch6_金融时间序列/
-├── 小作业5_Ch8_分类_Titanic/
-├── 小作业6_Ch9_回归_房价预测/
-├── 小作业7_Ch10_非监督学习/
-├── 大作业1_Financial_Performance_Prediction/
-└── 大作业2_可转债量化交易/
+Works/
+├── Work1/    # Python基础
+├── Work2/    # NumPy
+├── Work3/    # Pandas
+├── Work4/    # 金融时间序列
+├── Work5/    # 分类 Titanic
+├── Work6/    # 回归 房价预测
+├── Work7/    # 非监督学习
+├── FinalWork1/   # Financial Performance Prediction
+└── FinalWork2/   # 可转债量化交易
 ```

@@ -9,8 +9,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_squared_error
 
 # 读取数据
-train_df = pd.read_csv("作业整理/小作业6_Ch9_回归_房价预测/house pricing/train_new.csv")
-test_df = pd.read_csv("作业整理/小作业6_Ch9_回归_房价预测/house pricing/test_new.csv")
+train_df = pd.read_csv("Works/Work6/house pricing/train_new.csv")
+test_df = pd.read_csv("Works/Work6/house pricing/test_new.csv")
 
 target = "SalePrice"
 y_train = np.log1p(train_df[target])

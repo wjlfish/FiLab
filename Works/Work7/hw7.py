@@ -55,6 +55,6 @@ axes[1].set_xlabel("PC1")
 axes[1].set_ylabel("PC2")
 
 plt.tight_layout()
-plt.savefig("作业整理/小作业7_Ch10_非监督学习/fig_kmeans_pca.png", dpi=100)
+plt.savefig("Works/Work7/fig_kmeans_pca.png", dpi=100)
 plt.close()
 print("\n图片已保存")

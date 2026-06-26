@@ -32,7 +32,7 @@ axes[1].set_title("沪深300 日收益率")
 axes[1].grid(True)
 
 plt.tight_layout()
-plt.savefig("作业整理/小作业4_Ch6_金融时间序列/fig1_price_and_return.png", dpi=100)
+plt.savefig("Works/Work4/fig1_price_and_return.png", dpi=100)
 plt.close()
 
 # 3. 汇总统计
@@ -75,7 +75,7 @@ ax.legend()
 ax.set_title("沪深300 收盘价与30日滚动均线")
 ax.grid(True)
 plt.tight_layout()
-plt.savefig("作业整理/小作业4_Ch6_金融时间序列/fig2_rolling.png", dpi=100)
+plt.savefig("Works/Work4/fig2_rolling.png", dpi=100)
 plt.close()
 
 # 7. 简单交易策略
@@ -109,7 +109,7 @@ ax.legend()
 ax.set_title("策略累计对数收益对比")
 ax.grid(True)
 plt.tight_layout()
-plt.savefig("作业整理/小作业4_Ch6_金融时间序列/fig3_strategy1.png", dpi=100)
+plt.savefig("Works/Work4/fig3_strategy1.png", dpi=100)
 plt.close()
 
 # 策略2: RSI技术指标策略
@@ -152,7 +152,7 @@ axes[1].set_title("RSI策略 vs Long Only 累计对数收益")
 axes[1].grid(True)
 
 plt.tight_layout()
-plt.savefig("作业整理/小作业4_Ch6_金融时间序列/fig4_strategy2_rsi.png", dpi=100)
+plt.savefig("Works/Work4/fig4_strategy2_rsi.png", dpi=100)
 plt.close()
 
-print("\n图片已保存到 作业整理/小作业4_Ch6_金融时间序列/ 目录下")
+print("\n图片已保存到 Works/Work4/ 目录下")

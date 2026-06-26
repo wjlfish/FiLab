@@ -9,8 +9,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 
 # 读取数据
-train_df = pd.read_csv("作业整理/小作业5_Ch8_分类_Titanic/Titanic-train.csv")
-test_df = pd.read_csv("作业整理/小作业5_Ch8_分类_Titanic/Titanic-test.csv")
+train_df = pd.read_csv("Works/Work5/Titanic-train.csv")
+test_df = pd.read_csv("Works/Work5/Titanic-test.csv")
 
 # 预处理函数
 def preprocess(df):

@@ -70,11 +70,13 @@ echo.
 
 echo ========================================
 echo 全部小作业运行完毕！
-echo 大作业请用 Jupyter Notebook 打开:
-echo   - Works\FinalWork1\analysis.ipynb
-echo   - Works\FinalWork2\research.ipynb
 echo.
-echo 启动 Jupyter:
-echo   jupyter notebook
+echo ^>^>^> 导出大作业 Notebook 为 HTML...
+jupyter nbconvert --to html Works\FinalWork1\analysis.ipynb --output analysis.html
+jupyter nbconvert --to html Works\FinalWork2\research.ipynb --output research.html
+echo.
+echo 大作业已导出为 HTML，可直接浏览器打开:
+echo   - Works\FinalWork1\analysis.html
+echo   - Works\FinalWork2\research.html
 echo ========================================
 pause
